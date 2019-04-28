@@ -58,3 +58,9 @@ println(result)
 ```
 
 Unlike Scala, you can keep the current java tools and code, and do not have to switch to a new language
+
+### The code contains
+#### main.kt
+Under src/main/kotlin
+It was simply a simple conversion of the basic chapter 4 exercise - just to verify for me that the code runs OK
+It creates a very simple RDD made of a list of numbers, map them to a new RDD containing their square roots, and reduces the original RDD to calculate the sum of the numbers. 
