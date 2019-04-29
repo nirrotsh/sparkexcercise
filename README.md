@@ -37,9 +37,7 @@ System.out.println(result);
 
 Becomes in Kotlin
 ```kotlin
-val conf = SparkConf()
-    .setAppName("startingSpark")
-    .setMaster("local[*]")
+val conf = SparkConf().setAppName("startingSpark").setMaster("local[*]")
 val sc = JavaSparkContext(conf)
 
 val inputData = ArrayList<Int>().apply {
